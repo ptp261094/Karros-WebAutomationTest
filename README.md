@@ -1,9 +1,9 @@
 # GUIDELINE 
 
-**SET UP**
-1. Install latest version of Chrome and Firefox browser
-2. Install JDK 1.8
-3. Install Maven
+**Pre-condition**
+1. Installed latest version of Chrome and Firefox browser
+2. Installed JDK 1.8
+3. Installed Maven
 
 **Run the project**
 1. Go to project directory: cd path/to/project
