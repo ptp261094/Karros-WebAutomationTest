@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite thread-count="1" name="Karros" parallel="false">
+
+	<listeners>
+		<listener class-name="reportConfig.ExtentReportListener" />
+	</listeners>
+
+	<test name="Run on Chrome">
+
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.karros.studentmanagement.StudentManagement_01_AddNewStudent" />
+		</classes>
+	</test>
+
+	<test name="Run on Firefox">
+
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.karros.studentmanagement.StudentManagement_01_AddNewStudent" />
+		</classes>
+	</test>
+
+</suite>
